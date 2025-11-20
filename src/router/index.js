@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import DocReport from '../views/DocReport.vue'
 import DashboardView from '../views/DashboardView.vue'
 import GPTDashboardView from '../views/GPTDashboardView.vue'
+import ScrollTable from '@/views/ScrollTable.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/gpt-dashboard',
       name: 'gpt-dashboard',
       component: GPTDashboardView
+    },
+    {
+      path: '/scroll-table',
+      name: 'scroll-table',
+      component: ScrollTable
     },
     {
       path: '/about',

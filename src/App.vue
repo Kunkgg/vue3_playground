@@ -18,6 +18,10 @@ import { RouterLink, RouterView } from 'vue-router'
     <button>GPT-Dashboard</button>
   </RouterLink>  
 
+  <RouterLink to="/scroll-table">
+    <button>Scroll Table</button>
+  </RouterLink>  
+
   <RouterView />
 </template>
 
